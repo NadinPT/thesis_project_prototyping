@@ -1,0 +1,38 @@
+.processbar {
+    background-color: $colorWhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__title {
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 56px;
+        line-height: 65px;
+        letter-spacing: 0.2px;
+        color: #20262a;
+        padding-top: 72px;
+    }
+    &__text {
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 450;
+        font-size: 19px;
+        line-height: 30px;
+        letter-spacing: 0.2px;
+        color: #5c5c5c;
+        padding-top: 27px;
+    }
+    &__line {
+        padding-top: 62px;
+        padding-bottom: 71px;
+    }
+    &__button {
+        padding-bottom: 62px;
+    }
+    .button {
+        margin-left: 6.5px;
+        margin-right: 6.5px;
+    }
+}

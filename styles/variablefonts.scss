@@ -1,6 +1,6 @@
-.opentype {
+.variablefonts {
     background-color: $colorWhite;
-    // background-image: url(../img/blueround2.svg) center left;
+    // background-image: url(../img/yellowround2.svg) right;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: row;
@@ -10,6 +10,11 @@
     margin-bottom: 120px;
     padding-left: 225px;
     padding-right: 225px;
+    &__foto {
+        // padding-right: 35px;
+        width: 516px;
+        height: 351px;
+    }
     &__discript {
         display: flex;
         flex-direction: column;
@@ -46,10 +51,5 @@
                 color: #00b6f0;
             }
         }
-    }
-    &__foto {
-        // padding-left: 35px;
-        width: 516px;
-        height: 351px;
     }
 }

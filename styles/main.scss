@@ -3,20 +3,23 @@
 @import "./header.scss";
 @import "./promotion.scss";
 @import "./justtype.scss";
+@import "./opentype.scss";
+@import "./variablefonts.scss";
+@import "./processbar.scss";
 
 body {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 .container {
-  background: url(../img/blueround.png) center left,
-    url(../img/yellowround.png) right,
-    linear-gradient(
-      180deg,
-      rgba(255, 255, 255, 0.22) 7.62%,
-      rgba(0, 225, 198, 0.3) 50%,
-      #ffffff 100% / 200vh
-    );
-  min-height: 100vh;
-  background-repeat: no-repeat;
+    // background: url(../img/blueround.png) center left,
+    //     url(../img/yellowround.png) right,
+    //     linear-gradient(
+    //         180deg,
+    //         rgba(255, 255, 255, 0.22) 7.62%,
+    //         rgba(0, 225, 198, 0.3) 50%,
+    //         #ffffff 100% / 200vh
+    //     );
+    // min-height: 100vh;
+    background-repeat: no-repeat;
 }

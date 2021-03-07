@@ -1,14 +1,14 @@
 doctype html
-meta(charset="UTF-8")
-title Lightning fast prototyping
-meta(name="viewport", content="width=device-width,initial-scale=1")
-link(rel="stylesheet", href="styles/main.css")
-link(rel="stylesheet", href="styles/bootstrap.min.css")
-.container
-  .row
-    .col-1
-    .col-10
-      include ./components/header.pug
-      include ./components/promotion.pug
-      include ./components/justtype.pug
-    .col-1
+head
+    meta(charset="UTF-8")
+    title Lightning fast prototyping
+    meta(name="viewport", content="width=device-width,initial-scale=1")
+    link(rel="stylesheet", href="styles/main.css")
+    link(rel="stylesheet", href="styles/bootstrap.min.css")
+body
+    include ./components/header.pug
+    include ./components/promotion.pug
+    include ./components/justtype.pug
+    include ./components/opentype.pug
+    include ./components/variablefonts.pug
+    include ./components/processbar.pug

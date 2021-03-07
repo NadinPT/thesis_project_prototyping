@@ -1,0 +1,49 @@
+.justtype {
+  background-color: $colorWhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__first_title {
+    text-align: center;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.1px;
+    color: #f3cd03;
+    margin-top: 72px;
+  }
+  &__secont_title {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #20262a;
+    margin-top: 27px;
+  }
+  &__text {
+    text-align: center;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 24px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: #5c5c5c;
+    margin-top: 27px;
+  }
+  &__buttons {
+    margin-top: 69px;
+    margin-bottom: 62px;
+
+    .button {
+      margin-left: 6.5px;
+      margin-right: 6.5px;
+    }
+  }
+}

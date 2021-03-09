@@ -1,0 +1,83 @@
+.testimonials {
+    background-color: $colorWhite;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    &__title {
+        padding-top: 169px;
+        padding-bottom: 79px;
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 450;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0.1px;
+        color: #20262a;
+    }
+    &__logo {
+        padding-bottom: 79px;
+    }
+    &__text {
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 450;
+        font-size: 19px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #5c5c5c;
+        padding-bottom: 61px;
+    }
+    &__reviewAuthor {
+        padding-bottom: 51px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        &__reviewAuthor-photo {
+            padding-left: 23px;
+        }
+        &__reviewAuthor-name {
+            display: flex;
+            flex-direction: column;
+
+            // .testimonials__reviewAuthor-name-link {
+            //     font-family: Circular Std;
+            //     font-style: normal;
+            //     font-weight: 450;
+            //     font-size: 19px;
+            //     line-height: 30px;
+            //     text-align: center;
+            //     letter-spacing: 0.2px;
+            //     color: #5c5c5c !important;
+            // }
+            &-subtitle {
+                font-family: Circular Std;
+                font-style: normal;
+                font-weight: 450;
+                font-size: 18px;
+                line-height: 28px;
+                letter-spacing: 0.1px;
+                color: #5c5c5c;
+            }
+        }
+    }
+    .testimonials__reviewAuthor-name-link {
+        font-family: Circular Std;
+        font-style: normal;
+        font-weight: 450;
+        font-size: 19px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #5c5c5c !important;
+        text-align: right;
+    }
+    &__button {
+        padding-bottom: 108px;
+    }
+    .button {
+        margin-left: 6.5px;
+        margin-right: 6.5px;
+    }
+}

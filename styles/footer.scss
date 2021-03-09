@@ -6,6 +6,32 @@
     padding-top: 61px;
     align-items: center;
     padding-bottom: 60px;
+    @media screen and (max-width: $md) {
+        flex-direction: column;
+    }
+    .footerNav__menu {
+        .main-menu {
+            .main-menu_item {
+                //styleName: Link;
+                font-family: Circular Std;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 20px;
+                text-align: left;
+            }
+            @media screen and (max-width: $md) {
+                flex-direction: column;
+                margin-top: 52px;
+                margin-bottom: 124px;
+                padding-left: 0;
+                .main-menu_item {
+                    text-align: center;
+                    padding: 15px;
+                }
+            }
+        }
+    }
 }
 
 .footerNav_logo {
@@ -24,7 +50,7 @@
 .footerNav__menu-networks {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     &-twit {
         padding-left: 20px;

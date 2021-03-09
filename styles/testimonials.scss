@@ -1,6 +1,10 @@
 .testimonial__container {
     background: url(../img/grayround.svg) 15% 65%,
         url(../img/darkblueround.svg) bottom right;
+    @media screen and (max-width: $md) {
+        background: url(../img/grayround.svg) -8% 40%,
+            url(../img/darkblueround.svg) bottom right / 40%;
+    }
 }
 .testimonials {
     display: flex;

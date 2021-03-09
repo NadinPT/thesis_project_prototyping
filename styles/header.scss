@@ -1,32 +1,46 @@
 .navbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  text-align: center;
-  margin-top: 30px;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 30px;
+    align-items: center;
 }
 
+.menu {
+    @media screen and (max-width: $md) {
+        display: none;
+    }
+}
 .main-menu {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  text-align: center;
-  margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0;
 }
 
 .main-menu_item {
-  list-style: none;
-  padding-left: 25.5px;
-  padding-right: 25.5px;
-  font-weight: 450;
-  font-size: 18px;
-  line-height: 20px;
-  letter-spacing: 0.2px;
-  color: #20262a;
+    list-style: none;
+    padding-left: 25.5px;
+    padding-right: 25.5px;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #20262a;
 }
 
 .logo {
-  display: block;
-  // padding-left: 91px;
+    display: block;
+    @media screen and (max-width: $md) {
+        width: 30%;
+    }
+    // padding-left: 91px;
+}
+.sidebar {
+    display: none;
+    @media screen and (max-width: $md) {
+        display: block;
+    }
 }

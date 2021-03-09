@@ -12,6 +12,10 @@
     text-align: left;
     padding-top: 80px;
     padding-bottom: 70px;
+    @media screen and (max-width: $md) {
+        flex-direction: column;
+        text-align: center;
+    }
     &__title {
         font-family: Circular Std;
         font-style: normal;
@@ -23,6 +27,10 @@
 
         color: #20262a;
         padding-right: 56px;
+        @media screen and (max-width: $md) {
+            padding-right: 0;
+            padding-bottom: 77px;
+        }
     }
     &__discript {
         display: flex;
@@ -30,6 +38,11 @@
         justify-content: center;
         text-align: left;
         padding-left: 56px;
+        @media screen and (max-width: $md) {
+            text-align: center;
+            padding-left: 0;
+            padding-bottom: 77px;
+        }
         &-text {
             font-family: Circular Std;
             font-style: normal;
@@ -41,6 +54,9 @@
 
             color: #5c5c5c;
             padding-bottom: 30px;
+            @media screen and (max-width: $md) {
+                padding-bottom: 77px;
+            }
         }
         .button {
             margin-left: 6.5px;

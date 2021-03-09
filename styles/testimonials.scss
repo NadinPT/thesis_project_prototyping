@@ -34,9 +34,12 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        &__reviewAuthor-photo {
-            padding-left: 23px;
-        }
+        justify-content: space-around;
+        text-align: left;
+
+        // &__reviewAuthor-photo {
+
+        // }
         &__reviewAuthor-name {
             display: flex;
             flex-direction: column;
@@ -62,16 +65,18 @@
             }
         }
     }
+    .testimonials__reviewAuthor-photo {
+        margin-right: 23px;
+    }
     .testimonials__reviewAuthor-name-link {
         font-family: Circular Std;
         font-style: normal;
         font-weight: 450;
         font-size: 19px;
         line-height: 30px;
-        text-align: center;
+
         letter-spacing: 0.2px;
         color: #5c5c5c !important;
-        text-align: right;
     }
     &__button {
         padding-bottom: 108px;

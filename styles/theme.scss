@@ -3,50 +3,58 @@ $colorWhite: #fff;
 // buttons
 
 .button__outlined {
-  height: 52px;
-  text-align: center;
-  border: 1px solid $primaryColor;
-  color: $primaryColor;
-  background-color: transparent;
-  font-size: 18px;
-  line-height: 20px;
-  letter-spacing: 0.2px;
-  border-radius: 85px;
-  //   margin-top: 33px;
-  //   margin-right: 90px;
-  padding: 0 46px;
+    height: 52px;
+    text-align: center;
+    border: 1px solid $primaryColor;
+    color: $primaryColor;
+    background-color: transparent;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    border-radius: 85px;
+    //   margin-top: 33px;
+    //   margin-right: 90px;
+    padding: 0 46px;
 }
 .button__contain {
-  height: 52px;
-  text-align: center;
-  border: 1px solid $primaryColor;
-  color: $colorWhite;
-  background-color: $primaryColor;
-  font-size: 18px;
-  line-height: 20px;
-  letter-spacing: 0.2px;
-  border-radius: 85px;
-  //   margin-top: 33px;
-  //   margin-right: 90px;
-  padding: 0 46px;
+    height: 52px;
+    text-align: center;
+    border: 1px solid $primaryColor;
+    color: $colorWhite;
+    background-color: $primaryColor;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    border-radius: 85px;
+    //   margin-top: 33px;
+    //   margin-right: 90px;
+    padding: 0 46px;
 }
 .button__text {
-  height: 52px;
-  text-align: center;
-  border: 1px solid $colorWhite;
-  color: #20262a;
+    height: 52px;
+    text-align: center;
+    border: 1px solid $colorWhite;
+    color: #20262a;
 
-  background-color: $colorWhite;
-  font-size: 18px;
-  line-height: 20px;
-  letter-spacing: 0.2px;
-  border-radius: 85px;
-  //   margin-top: 33px;
-  //   margin-right: 90px;
-  padding: 0 46px;
+    background-color: $colorWhite;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    border-radius: 85px;
+    //   margin-top: 33px;
+    //   margin-right: 90px;
+    padding: 0 46px;
 }
 
 //bootstrap
 .container {
-  max-width: 100%;
+    max-width: 100%;
 }
+
+// breakpoint variables
+$xxl: 1610px;
+$xl: 1450px;
+$lg: 1210px;
+$md: 1034px;
+$sm: 810px;
+$xs: 490px;

@@ -1,0 +1,41 @@
+.footerNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 61px;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.footerNav_logo {
+    display: flex;
+    flex-direction: column;
+}
+.footerNav_logo-text {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: #5c5c5c;
+}
+.footerNav__menu-networks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    &-twit {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    &-fb {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    &-insta {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

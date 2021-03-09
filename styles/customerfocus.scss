@@ -1,3 +1,10 @@
+.customfocus__container {
+    background: linear-gradient(
+        180deg,
+        #e9faff 0%,
+        rgba(233, 250, 255, 0) 100%
+    );
+}
 .customerfocus {
     display: flex;
     flex-direction: row;

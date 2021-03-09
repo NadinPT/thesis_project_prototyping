@@ -1,6 +1,9 @@
+.opentype__container {
+    background: url(../img/blueround2.svg) 100% / contain;
+    background-repeat: no-repeat;
+}
+
 .opentype {
-    background-color: $colorWhite;
-    // background-image: url(../img/blueround2.svg) center left;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: row;

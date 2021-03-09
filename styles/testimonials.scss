@@ -1,5 +1,8 @@
+.testimonial__container {
+    background: url(../img/grayround.svg) 15% 65%,
+        url(../img/darkblueround.svg) bottom right;
+}
 .testimonials {
-    background-color: $colorWhite;
     display: flex;
     flex-direction: column;
     text-align: center;

@@ -4,6 +4,10 @@
 .priceing {
     display: flex;
     flex-direction: row;
+    @media screen and (max-width: $md) {
+        flex-direction: column;
+        align-items: center;
+    }
     justify-content: center;
 
     padding-top: 110px;
@@ -13,7 +17,11 @@
         flex-direction: column;
 
         text-align: left;
-
+        @media screen and (max-width: $md) {
+            text-align: center;
+            margin-right: 0;
+            padding-bottom: 77px;
+        }
         margin-right: 88px;
         &-title {
             font-family: Circular Std;
@@ -42,6 +50,10 @@
         flex-direction: column;
 
         text-align: left;
+        @media screen and (max-width: $md) {
+            text-align: center;
+            margin-left: 0;
+        }
         margin-left: 88px;
 
         &-trialtitle {
